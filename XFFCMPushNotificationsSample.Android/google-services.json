@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336461978699",
+    "project_id": "pushnotificationssample-987fb",
+    "storage_bucket": "pushnotificationssample-987fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336461978699:android:e885af151a0c73881c01ce",
+        "android_client_info": {
+          "package_name": "nl.versluis.pushnotificationssample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336461978699-2sdqit6i7l09s6apmf64gkcq3a4q5pvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5BxqY4dWKEkqBo7H1fXBYKxO5jXjrfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336461978699-2sdqit6i7l09s6apmf64gkcq3a4q5pvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

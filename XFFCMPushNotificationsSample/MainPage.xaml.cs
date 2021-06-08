@@ -15,7 +15,10 @@ namespace XFFCMPushNotificationsSample
         {
             InitializeComponent();
 
-            CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
+            }
         }
 
         private void Current_OnNotificationReceived(object source, FirebasePushNotificationDataEventArgs e)

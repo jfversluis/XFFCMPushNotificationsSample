@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pushnotificationssample-sadw324",
+  "private_key_id": "f0000000000000f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nn0tReAl\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-y231waeW@pushnotificationssample-sdfa34w34b.iam.gserviceaccount.com",
+  "client_id": "109560877161278580934",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-y231waeW%40pushnotificationssample-sadw324.iam.gserviceaccount.com"
+}

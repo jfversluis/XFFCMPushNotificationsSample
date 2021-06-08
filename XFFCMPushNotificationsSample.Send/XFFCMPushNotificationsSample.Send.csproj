@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FirebaseAdmin" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="2.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="private_key.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -13,6 +13,7 @@ namespace XFFCMPushNotificationsSample
 
             MainPage = new MainPage();
 
+            CrossFirebasePushNotification.Current.Subscribe("all");
             CrossFirebasePushNotification.Current.OnTokenRefresh += Current_OnTokenRefresh;
         }
 

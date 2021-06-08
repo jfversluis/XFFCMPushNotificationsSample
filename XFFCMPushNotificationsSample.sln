@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFFCMPushNotificationsSampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFFCMPushNotificationsSample", "XFFCMPushNotificationsSample\XFFCMPushNotificationsSample.csproj", "{6A4DDAEF-9F64-459F-9A4C-8F9023476D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFFCMPushNotificationsSample.Send", "XFFCMPushNotificationsSample.Send\XFFCMPushNotificationsSample.Send.csproj", "{A45954B4-CF86-4953-AA61-B9A4F27750C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{6A4DDAEF-9F64-459F-9A4C-8F9023476D1B}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{6A4DDAEF-9F64-459F-9A4C-8F9023476D1B}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{6A4DDAEF-9F64-459F-9A4C-8F9023476D1B}.Release|iPhone.Build.0 = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A45954B4-CF86-4953-AA61-B9A4F27750C7}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
